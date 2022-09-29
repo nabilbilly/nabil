@@ -1,0 +1,324 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.blue-color{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+/**/
+.container{
+    margin: 0px;
+    max-width: 100%;
+    padding: 0px;
+    max-height: 15000px;
+    overflow-y: hidden;
+}
+/* heip to set the right padding */
+.navbar {
+    width: 100%;
+    height: 8vh;
+    margin: 0px;
+    padding: 0px;
+    background-color: whitesmoke;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: smaller;
+    position: fixed;
+    z-index: initial;
+
+}
+.navbar ul{
+    padding-left: 6%;
+}
+.navbar ul li{
+   flex: 1;
+    display: inline-block;
+    margin-right:10px ;
+
+}
+ .navbar ol {
+    flex: 1;
+    text-align: right;
+    margin-right: 3%;
+}
+.navbar ol li{
+    display: inline-block;
+    list-style-type: none;
+    margin-right:10px ;
+}
+/* ******************************************************************************************************************************************************** */
+.area{
+    width: 100%;
+    height: 13vh;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    display: flex;justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: smaller;
+    position: relative;
+    
+    
+
+}
+.area h3{
+    color: goldenrod;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    padding-left: 6%;
+}
+#b{
+    font-weight: lighter;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#c{
+    font-weight: lighter;
+    font-size: xx-small;
+    color: black;
+
+}
+.area ul{
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 130px;
+
+}
+.area ul form {
+    width: 0px;
+    height: 30px;
+    display: flex;
+    border-color: goldenrod;
+}
+.area ol {
+    flex: 1;
+    text-align: right;
+    margin-right: 3%;
+
+}
+.area ol li{
+    display: inline-block;
+    list-style-type: none;
+    margin-right:10px ;
+    
+}
+#o{
+    padding: 2px;
+    height: 115%;
+    background-color: goldenrod;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.area form button{
+    background-color: goldenrod;
+    border-color: goldenrod;
+}
+/* ********************************************************************************************************************************** */
+.area-2{
+    width: 100%;
+    height: 8vh;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: smaller;
+   
+
+
+}
+.gold-color{
+    color: goldenrod;
+}
+.area-2 ul{
+    padding-left: 6%;
+}
+.area-2 ul li{
+   flex: 1;
+    display: inline-block;
+    margin-right:10px ;
+    
+
+}
+.area-2 ul li a{
+    color: white;
+}
+.area-2 ul li:hover{
+    background-color: goldenrod;
+    color: black;
+   
+   
+}
+.white-color{
+    color: white;
+}
+.area-2 ol {
+    flex: 1;
+    text-align: right;
+    margin-right: 3%;
+
+}
+.area-2 ol li{
+    display: inline-block;
+    list-style-type: none;
+    margin-right:15px ;
+    
+}
+.area-2 ol li h6{
+    color: white;
+}
+.area-2 ol li i{
+    margin-left:10px ;
+}
+.blue-color{
+    margin-right: 20px;
+    color:gold;
+}
+#buttons {
+    width: 100px;
+    height: 37px;
+    color: black;
+    background-color: gold;
+    border-style: none;
+    border-radius: 5px;
+}
+#buttons-1 {
+    width: 40px;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+
+#demoInput {
+    height:20px;
+    font-size:14pt;
+}
+
+
+.dell-xp{
+    width: 94%;
+    height: 100vh;
+    padding-top: 50px;
+    padding-left: 6%;
+    margin: 0%;
+    background-color: whitesmoke;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dellxp-img img{
+ width: 750px;
+ height: 600px;
+}
+nav ul {
+    display: inline-block;
+}
+#font{
+    font-weight: lighter;
+    font-size: large;
+}
+/* **************************************************************************** items */
+.main_dishes{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color:whitesmoke;
+    
+}
+.sub-header{
+    text-align: center;
+    color: green;
+    font-size: 1rem;
+    padding-top:1rem ;
+
+
+}
+.main-header {
+    background-color:whitesmoke;
+}
+.header{
+    text-align: left;
+    color:black;
+    font-size: 1rem;
+    padding-bottom:3rem ;
+    text-transform: uppercase;
+    padding-left: 30px;
+    padding-top: 30px;
+    
+}
+.main_dishes .main-header{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem,1fr));
+    gap: 6.1rem;
+
+   
+    
+}
+.main_dishes .main-header .main-dish button{
+    margin-top: 1px;
+    display: inline-block;
+    font-family:Arial, sans-serif ;
+    color: #fff;
+    background-color:rgb(14, 14, 37) ;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 3px 1px;
+    width: 90px;
+    height:25px ;
+    font-size: small;
+}
+.main_dishes .main-header .main-dish button:hover{
+    background-color:goldenrod;
+    color: #fff;
+    border: #717171;
+}
+.main_dishes .main-header .main-dish {
+    padding:0px;
+    background-color:black;
+    border-radius:50%  ;
+    border: 1px solid #fff;
+    box-shadow: var(--box-shadow);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    width: 300px;
+    height: 270px;
+    padding-top: 10px;
+    
+    border-color:white ;
+}
+.main_dishes .main-header .main-dish img{
+    width: 190px;
+    height: 140px;
+
+}
+.main_dishes .main-header .main-dish h4{
+    color: white;
+
+}
+.main_dishes .main-header .main-dish span{
+    color: green;
+    white-space: 3px;
+}
+.main_dishes .main-header .main-dish .btn{
+    background-color: gold;
+    color: #fff;
+    border-radius: 1px;
+    border: #fff;
+    font-size: 6px;
+    width: 32px ;
+    height: 16px;
+}

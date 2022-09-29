@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="popup.css">
+    <link rel="shortcut icon" href="shoe-3.jpg" type="image/x-icon">
+    <title>Abic.com</title>
+    <script>
+    </script>
+
+
+</head>
+
+<body>
+    <!-- This is the main container all division  -->
+    <div class="container">
+        <!--This navbar contain  first section (My first Main Div )   - i have to do drop down in some sections   -->
+        <div class="navbar">
+            <ul>
+                <li class="main-1">USD
+                    <div class="drop-1">
+                        <l>
+                            <li>Pound</li> <br> <br>
+                            <li>Diner</li><br> <br>
+                            <li>ERU</li> <br> <br>
+                            <li> YEN</li><br> <br>
+                            <li>OTHER</li>
+            </ul>
+            </div>
+
+            </li>
+            <li>
+                <div class="main">England</div>
+            </li>
+            <li>
+                <div class="main"><i class="fa fa-user blue-color"></i><a href="">My Account</a> </div>
+            </li>
+            <li>
+                <div class="main"><i class="fa fa-heart-o"></i> My Wishlist</div>
+            </li>
+            <li>
+                <div class="main"><i class="fa fa-diamond blue-color"></i> Checkout</div>
+            </li>
+            </ul>
+            <ol>
+                <li>
+                    <a href=""></a><i class="fa fa-comment-o"></i> Start Live Chat</a>
+                </li>
+                <li>
+                    <a href=""></a><i class="fa fa-fax"></i> Call Our Customer-service</a>
+                </li>
+
+            </ol>
+        </div>
+        <!--This area specify second section (My Second Main Div )   -can do this better  -->
+
+        <div class="area">
+            <h3>ABIC<span id="b">com</span> <br> <span id="c">Your E-commerce Store</span></h3>
+            <ul>
+                <form>
+
+                    <input type="text" name="search" placeholder=" " size="70" style=" border-radius:  25px 0px 0px  25px ;height: 26px;border-color: goldenrod;">
+                    <button type="submit"> <i class="fa fa-search">Search</i></button>
+                </form>
+            </ul>
+            <ol>
+                <li>
+                    <a href=""></a><i class="fa fa-car"></i> Everyday Free Shopping <br>
+                    <span>& No Sales Tax</span></a>
+                </li>
+                <li id="o">
+                    <a href=""></a><i class="fa fa-shopping-cart"></i><br>0item($) -$0.00 <br>MY CART</a>
+                </li>
+            </ol>
+
+
+        </div>
+
+        <!--This area-2 contain  Third section (My Third Main Div )   - Try including dropdown manus   -->
+        <div class="area-2">
+            <ul>
+                <li><a href=""><i class="fa fa-home gold-color"></i></a></li>
+                <li><a href="">ELECTRONIC GADGETS</a></li>
+                <li><a href="">OUTFITS</a></li>
+                <li><a href="">SPORTS</a></li>
+                <li><a href="">ACCESSORIES</a></li>
+                <li><a href="">TOOLS</a></li>
+                <li><a href="">BOOKS</a></li>
+                <li>
+                    <div class="openBtn">
+                        <button class="openButton" onclick="openForm()"><strong>My account</strong></button>
+                    </div>
+                    <div class="loginPopup">
+                        <div class="formPopup" id="popupForm">
+                            <form action="/action_page.php" class="formContainer">
+                                <h2>Please Log in</h2>
+                                <label for="email">
+                      <strong>E-mail</strong>
+                    </label>
+                                <input type="text" id="email" placeholder="Your Email" name="email" required>
+                                <label for="psw">
+                      <strong>Password</strong>
+                    </label>
+                                <input type="password" id="psw" placeholder="Your Password" name="psw" required>
+                                <button type="submit" class="btn">Log in</button>
+                                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                            </form>
+                        </div>
+                    </div>
+                    <script>
+                        function openForm() {
+                            document.getElementById("popupForm").style.display = "block";
+                        }
+
+                        function closeForm() {
+                            document.getElementById("popupForm").style.display = "none";
+                        }
+                    </script>
+                </li>
+
+            </ul>
+            <ol>
+                <li>
+                    <h6><i class="fa fa-group white-color"></i>
+                        <a href=""> <span style="color:white ;">HOT DAELS</span> </a>
+                    </h6>
+                </li>
+                <li><i class="fa fa-facebook white-color"></i><i class="fa fa-instagram white-color"></i> <i class="fa fa-twitter white-color"></i> <i class="fa fa-envelope white-color"></i></li>
+
+            </ol>
+
+        </div>
+        <!--This area-3 contain  fourth section (My fourth Main Div )     -->
+        <div class="area-3">
+            <video muted loop autoplay="true" muted="true" id="video">
+          <source src="pictures/v3NB.mp4" type="video/mp4" >
+          
+        </video>
+
+            <video muted loop autoplay="ture" id="video">
+            <source src="pictures/v5.mp4" type="video/mp4" >
+            
+          </video>
+        </div>
+        <!--This bod and area-4 contain  fifth section (My fifth Main Div )   - This section as been divided into two part using gradent   -->
+        <div class="bod">
+            <div class="area-4">
+
+
+                <div class="left-side">
+                    <!--this is the left hand side  -->
+                    <div class="left-row">
+                        <div id="top">
+                            <h4>SHOP BY</h4>
+                        </div class="follow">
+                        <div class="down">
+                            <li> <span style="font-weight:bold ;">CATEGORY</span> </li>
+                            <li>
+                                <div><input type="checkbox">New Online</div>
+                            </li>
+                            <li>
+                                <div><input type="checkbox">Most Popular</div>
+                            </li>
+                            <li>
+                                <div><input type="checkbox">The Essentials</div>
+                                <li><input type="checkbox">Music Accessories</li>
+                                <li><input type="checkbox">Skin Care & Body Fit</li>
+                                <li><input type="checkbox">New Arrivals</li>
+                                <li><input type="checkbox">Cool Checks </li>
+                        </div>
+                        <!-- this side is for the price  and this is for the left-hand side-->
+                        <div class="down-2">
+                            <li><span style="font-weight:bold ;">PRICE</span></li>
+
+                            <div class="wrapper">
+
+                                <div class="price-input">
+                                    <div class="field">
+                                        <span>Min</span>
+                                        <input type="number" class="input-min" value="2500">
+                                    </div>
+                                    <div class="separator">-</div>
+                                    <div class="field">
+                                        <span>Max</span>
+                                        <input type="number" class="input-max" value="7500">
+                                    </div>
+                                </div>
+                                <div class="slider">
+                                    <div class="progress"></div>
+                                </div>
+                                <div class="range-input">
+                                    <input type="range" class="range-min" min="0" max="10000" value="2500" step="100">
+                                    <input type="range" class="range-max" min="0" max="10000" value="7500" step="100">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="down-3">
+                            <li> <span style="font-weight:bold ;">POPULAR BANDs</span> </li>
+                            <li>
+                                <div><input type="checkbox">Adidas</div>
+                            </li>
+                            <li>
+                                <div><input type="checkbox">Nike Essentials</div>
+                            </li>
+                            <li><input type="checkbox">Luis vitton</li>
+                            <li><input type="checkbox">Apple (Iphone)</li>
+                            <li><input type="checkbox">Tesla </li>
+                        </div>
+                        <div class="down-4">
+
+                            <li>
+                                <div class="down-4-1">
+                                    <img src="pictures/wooden sofa chair.jpg" alt="" width="150px" height="150px">
+                                    <ol>
+                                        <h5>WOODEN SOFA CHAIR <br> Single Sofa Potetoeschair <br> <br>
+                                            <i class="fa fa-star blue-color"></i><i class="fa fa-star blue-color"></i><i class="fa fa-star-half-o blue-color"></i><i class="fa fa-star-half-o blue-color"></i><i class="fa fa-star-half-o blue-color"></i>
+                                            <br> <br> <span style="color: red;">$ 95.99</span> </h5>
+
+                                    </ol>
+                                </div>
+
+                            </li>
+                            <li>
+                                <div class="down-4-1">
+                                    <img src="pictures/asus zenbook 16gb ram, heavy deal 52% off - quimeco.cl.jpg" alt="" width="150px" height="150px">
+                                    <ol>
+                                        <h5>ASUS Zenbook 16gb RAM <br>Heavy Deal 52% Off - Quimeco <br> <br>
+                                            <i class="fa fa-star blue-color"></i><i class="fa fa-star blue-color"></i><i class="fa fa-star blue-color"></i><i class="fa fa-star blue-color"></i><i class="fa fa-star blue-color"></i>
+                                            <br> <br> <span style="color:red ;">$ 1,229.99</span> </h5>
+
+                                    </ol>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="down-4-1">
+                                    <img src="pictures/BRIDES-20-best-wedding-shoes.gif" alt="" width="150px" height="150px">
+                                    <ol>
+                                        <h5> BADGLEY MISCHK COLLECTION <br> Best Ever After Embellished Sandal <br> <br>
+                                            <i class="fa fa-star blue-color"></i><i class="fa fa-star blue-color"></i><i class="fa fa-star blue-color"></i><i class="fa fa-star blue-color"></i><i class="fa fa-star-half-o blue-color"></i>
+                                            <br><span style="color:red ;">US $ 50.59</span> </h5>
+
+                                    </ol>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="down-4-1">
+                                    <img src="pictures/guitar.jpg" alt="" width="150px" height="150px">
+                                    <ol>
+                                        <h5>HOT SALE MUSICAL INSTRUMENT <br> Solid Wood Acoustic Guitar <br> <br>
+                                            <i class="fa fa-star blue-color"></i><i class="fa fa-star blue-color"></i><i class="fa fa-star blue-color"></i><i class="fa fa-star-half-o blue-color"></i><i class="fa fa-star-half-o blue-color"></i>
+                                            <br><br><span style="color:red ;"> US $ 60-70</span> </h5>
+
+                                    </ol>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="down-4-1">
+                                    <img src="pictures/UiiSii HM13 In-Ear gaming Headset with Microphone.jpg" alt="" width="150px" height="150px">
+                                    <ol>
+                                        <h5>UiiSii HM13 FOR MUSIC <br>Additional In-Ear Gaming Headset <br> With Microphone-Recorder <br><br>
+                                            <i class="fa fa-star blue-color"></i><i class="fa fa-star blue-color"></i><i class="fa fa-star blue-color"></i><i class="fa fa-star blue-color"></i><i class="fa fa-star-half-o blue-color"></i>
+                                            <br><span style="color:red ;"> $19.22</span> </h5>
+
+                                    </ol>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="down-4-1">
+                                    <img src="pictures/LEMFO LEM10 4G LTE Smart Watch Phone 4GB+64GB Android 7.1 1.88 Inch GPS 780mAh.jpg" alt="" width="150px" height="150px">
+                                    <ol>
+                                        <h5>LEMFO LEM10 4G LTE Smart Watch Phone 4GB+64GB <br> Android 7.1 1.88 Inch GPS 780mAh
+                                            <br><br>
+
+                                            <i class="fa fa-star blue-color"></i><i class="fa fa-star blue-color"></i><i class="fa fa-star blue-color"></i><i class="fa fa-star blue-color"></i><i class="fa fa-star-half-o blue-color"></i>
+                                            <br><span style="color:red ;">$ 450.99</span> </h5>
+
+                                    </ol>
+                                </div>
+                            </li>
+                            <div class="video">
+
+                                <video muted="true" width="400" height="500" loop autoplay="true">
+                          <source src="pictures/v2.mp4" type="video/mp4" >
+                          
+                        </video>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <!--right hand side of the div   -->
+                <div class="right-side">
+                    <div class="main_dishes">
+                        <h3 class="header">most Popular </h3>
+
+
+                        <div class="main-header">
+                            <div class="main-dish">
+                                <!-- image-1 -->
+                                <a href="dellxpx.html"> <img src="pictures/Dell XPS 15 Laptop  XPS Laptop Computers Dell UK.png" alt="" width="120px" height="120px"> </a>
+                                <h4>20% Discount</h4>
+                                <hr>
+                                <span>$1,300.00</span>&nbsp;&nbsp;<a href=""><button>Add To Cart</button></a>&nbsp;<a href=""><button class="btn">Buy</button></a>
+                            </div>
+
+                            <div class="main-dish">
+                                <!-- image-2 -->
+                                <a href="beat.html"> <img src="pictures/earbuds.Beats Fit Pro.jpg" alt="" width="130px" height="120px"></a>
+                                <h4>10% Discount</h4>
+                                <hr>
+                                <span>$24.95</span>&nbsp;&nbsp;
+                                <a href=""><button>Add To Cart</button></a>&nbsp;<a href=""><button class="btn">Buy</button></a>
+                            </div>
+
+                            <div class="main-dish">
+                                <!-- image-3-->
+                                <img src="pictures/Mattress 3 Inch Egg Crate Memory Foam Mattress Topper with Soothing Lavender Infusion.jpg" alt="" width="130px" height="120px">
+                                <h4>20% Discount</h4>
+                                <hr>
+                                <span>$15.99</span>&nbsp;&nbsp;<a href=""><button>Add To Cart</button></a>&nbsp;<a href=""><button class="btn">Buy</button></a>
+                            </div>
+
+                            <div class="main-dish">
+                                <!-- image-4 -->
+                                <img src="pictures/9 InchesFixed Legs4 Inches, Product Line, Gala Bed – Spring & Foam Mattres.webp" alt="" width="130px" height="120px">
+                                <h4>20% Discount</h4>
+                                <hr>
+                                <span>$16.98</span>&nbsp;&nbsp;<a href=""><button>Add To Cart</button></a>&nbsp;<a href=""><button class="btn">Buy</button></a>
+                            </div>
+
+                            <div class="main-dish">
+                                <!-- image-5 -->
+                                <img src="pictures/matebook-x-pro huawei.jpg" alt="" width="130px" height="120px">
+                                <h4>20% Discount</h4>
+                                <hr>
+                                <span>$13.99</span>&nbsp;&nbsp;<a href=""><button>Add To Cart</button></a>&nbsp;<a href=""><button class="btn">Buy</button></a>
+                            </div>
+
+                            <div class="main-dish">
+                                <!-- image-6 -->
+                                <img src="pictures/kid.jpg" alt="" width="130px" height="120px">
+                                <h4>20% Discount</h4>
+                                <hr>
+                                <span>$20.99</span>&nbsp;&nbsp;<a href=""><button>Add To Cart</button></a>&nbsp;<a href=""><button class="btn">Buy</button></a>
+                            </div>
+                            <div class="main-dish">
+                                <!-- image-7 -->
+                                <img src="pictures/Midea Smart 21.6-cu ft 4-Door Counter-Depth French Door Refrigerator with Dual Ice Maker (Stainless Steel).jpg" alt="" width="130px" height="120px" d>
+                                <h4>20% Discount</h4>
+                                <hr>
+                                <span>$16.99</span>&nbsp;&nbsp;<a href=""><button>Add To Cart</button></a>&nbsp;<a href=""><button class="btn">Buy</button></a>
+                            </div>
+
+                            <div class="main-dish">
+                                <!-- image-8 -->
+                                <img src="pictures/Queen Folding Mattresses,JINGWEI Tri-fold Queen Memory Foam Mattress Topper with Washable Cover, 3-Inch.jpg" alt="" width="130px" height="120px">
+                                <h4>20% Discount</h4>
+                                <hr>
+                                <span>$35.96</span>&nbsp;&nbsp;<a href=""><button>Add To Cart</button></a>&nbsp;<a href=""><button class="btn">Buy</button></a>
+                            </div>
+
+                            <div class="main-dish">
+                                <!-- image-9-->
+                                <img src="pictures/sofa foot.jpg" alt="" width="130px" height="120px">
+                                <h4>20% Discount</h4>
+                                <hr>
+                                <span>$13.99</span>&nbsp;&nbsp;<a href=""><button>Add To Cart</button></a>&nbsp;<a href=""><button class="btn">Buy</button></a>
+                            </div>
+
+                            <div class="main-dish">
+                                <!-- image-10 -->
+                                <img src="pictures/guitar.jpg" alt="" width="130px" height="120px">
+                                <h4>20% Discount</h4>
+                                <hr>
+                                <span>$90.99</span>&nbsp;&nbsp;<a href=""><button>Add To Cart</button></a>&nbsp;<a href=""><button class="btn">Buy</button></a>
+                            </div>
+
+                            <div class="main-dish">
+                                <!-- image-11 -->
+                                <img src="pictures/Apple's first-gen M1 chips have already upended our concept of laptop performance - The Verge.webp" alt="" width="130px" height="120px">
+                                <h4>20% Discount</h4>
+                                <hr>
+                                <span>$90.99</span>&nbsp;&nbsp;<a href=""><button>Add To Cart</button></a>&nbsp;<a href=""><button class="btn">Buy</button></a>
+                            </div>
+
+                            <div class="main-dish">
+                                <!-- image-12 -->
+                                <img src="pictures/avmacApple's first-gen M1 chips.avif" alt="" width="130px" height="120px">
+                                <h4>20% Discount</h4>
+                                <hr>
+                                <span>$90.99</span>&nbsp;&nbsp;<a href=""><button>Add To Cart</button></a>&nbsp;<a href=""><button class="btn">Buy</button></a>
+                            </div>
+                            <div class="main-dish">
+                                <!-- image-13 -->
+                                <img src="pictures/Ronix Tool Set With 650W Hammer Impact Drill Electrical Hand Tools.jpg" alt="" width="130px" height="120px">
+                                <h4>20% Discount</h4>
+                                <hr>
+                                <span>$90.99</span>&nbsp;&nbsp;<a href=""><button>Add To Cart</button></a>&nbsp;<a href=""><button class="btn">Buy</button></a>
+                            </div>
+
+                            <div class="main-dish">
+                                <!-- image-14 -->
+                                <img src="pictures/Whirlpool 215 L 5 Star Inverter Direct-Cool Single Door – Rs 5.webp" alt="" width="130px" height="120px">
+                                <h4>20% Discount</h4>
+                                <hr>
+                                <span>$90.99</span>&nbsp;&nbsp;<a href=""><button>Add To Cart</button></a>&nbsp;<a href=""><button class="btn">Buy</button></a>
+                            </div>
+                            <div class="main-dish">
+                                <!-- image-15 -->
+                                <img src="pictures/shoe-2.jpg" alt="" width="130px" height="120px">
+                                <h4>20% Discount</h4>
+                                <hr>
+                                <span>$15.99</span>&nbsp;&nbsp;<a href=""><button>Add To Cart</button></a>&nbsp;<a href=""><button class="btn">Buy</button></a>
+                            </div>
+
+                            <div class="main-dish">
+                                <!-- image-16 -->
+                                <img src="pictures/WeCool Neckband wireless headphones with 12 hours Play Time Bluetooth Headset  (Yellow, Black, In the Ear).webp" alt="" width="130px" height="120px">
+                                <h4>20% Discount</h4>
+                                <hr>
+                                <span>$12.99</span>&nbsp;&nbsp;<a href=""><button>Add To Cart</button></a>&nbsp;<a href=""><button class="btn">Buy</button></a>
+                            </div>
+                            <div class="main-dish">
+                                <!-- image-17 -->
+                                <img src="pictures/asus zenbook 16gb ram, heavy deal 52% off - quimeco.cl.jpg" alt="" width="130px" height="120px">
+                                <h4>New</h4>
+                                <hr>
+                                <span>$14.99</span>&nbsp;&nbsp;<a href=""><button>Add To Cart</button></a>&nbsp;<a href=""><button class="btn">Buy</button></a>
+                            </div>
+
+                            <div class="main-dish">
+                                <!-- image-18 -->
+                                <img src="pictures/allstar.jpg" alt="" width="130px" height="120px">
+                                <h4>Tasty Food</h4>
+                                <hr>
+                                <span>$12.99</span>&nbsp;&nbsp;<a href=""><button>Add To Cart</button></a>&nbsp;<a href=""><button class="btn">Buy</button></a>
+                            </div>
+                            <div class="main-dish">
+                                <!-- image-19 -->
+                                <img src="pictures/tv.webp" alt="" width="130px" height="120px">
+                                <h4>Tasty Food</h4>
+                                <hr>
+                                <span>$90.99</span>&nbsp;&nbsp;<a href=""><button>Add To Cart</button></a>&nbsp;<a href=""><button class="btn">Buy</button></a>
+                            </div>
+
+                            <div class="main-dish">
+                                <!-- image-20 -->
+                                <img src="pictures/zelda-single-sofa-3.png" alt="" width="130px" height="120px">
+                                <h4>Tasty Food</h4>
+                                <hr>
+                                <span>$90.99</span>&nbsp;&nbsp;<a href=""><button>Add To Cart</button></a>&nbsp;<a href=""><button class="btn">Buy</button></a>
+                            </div>
+                            <div class="main-dish">
+                                <!-- image-21 -->
+                                <img src="pictures/data_wooden-sofa_marriott-wooden-sofa.jpg" alt="" width="130px" height="120px">
+                                <h4>Tasty Food</h4>
+                                <hr>
+                                <span>$90.99</span>&nbsp;&nbsp;<a href=""><button>Add To Cart</button></a>&nbsp;<a href=""><button class="btn">Buy</button></a>
+                            </div>
+
+                            <div class="main-dish">
+                                <!-- image-22 -->
+                                <img src="pictures/Double-Bed-Mattress-Designs.jpg" alt="" width="130px" height="120px">
+                                <h4>Tasty Food</h4>
+                                <hr>
+                                <span>$90.99</span>&nbsp;&nbsp;<a href=""><button>Add To Cart</button></a>&nbsp;<a href=""><button class="btn">Buy</button></a>
+                            </div>
+                            <div class="main-dish">
+                                <!-- image-23 -->
+                                <img src="pictures/APPLLP 4 4G Smart Watch Men WIFI GPS Watches 4GB 128GB Android 10.7 Watch Phone.jpeg" alt="" width="130px" height="120px">
+                                <h4>Tasty Food</h4>
+                                <hr>
+                                <span>$15.99</span>&nbsp;&nbsp;<a href=""><button>Add To Cart</button></a>&nbsp;<a href=""><button class="btn">Buy</button></a>
+                            </div>
+
+                            <div class="main-dish">
+                                <!-- image-24 -->
+                                <img src="pictures/Whirlpool 215 L 5 Star Inverter Direct-Cool Single Door – Rs 5.webp" alt="" width="130px" height="120px">
+                                <h4>Tasty Food</h4>
+                                <hr>
+                                <span>$12.99</span>&nbsp;&nbsp;<a href=""><button>Add To Cart</button></a>&nbsp;<a href=""><button class="btn">Buy</button></a>
+                            </div>
+                            <div class="main-dish">
+                                <!-- image-25 -->
+                                <img src="pictures/Musical Instrument Accessories  Sheet Music Skillman, NJ.webp" alt="" width="130px" height="120px">
+                                <h4>Tasty Food</h4>
+                                <hr>
+                                <span>$14.99</span>&nbsp;&nbsp;<a href=""><button>Add To Cart</button></a>&nbsp;<a href=""><button class="btn">Buy</button></a>
+                            </div>
+
+                            <div class="main-dish">
+                                <!-- image-26 -->
+                                <img src="pictures/iphone cuddet type case 13promax1211pro and max.jpg" alt="" width="130px" height="120px">
+                                <h4>Tasty Food</h4>
+                                <hr>
+                                <span>$12.99</span>&nbsp;&nbsp;<a href=""><button>Add To Cart</button></a>&nbsp;<a href=""><button class="btn">Buy</button></a>
+                            </div>
+                            <div class="main-dish">
+                                <!-- image-26 -->
+                                <img src="pictures/Best-Quality-Spring-Hotel-King-Bed-Foam-Mattress-for-Bedroom-Set.jpg" alt="" width="130px" height="120px">
+                                <h4>Tasty Food</h4>
+                                <hr>
+                                <span>$12.99</span>&nbsp;&nbsp;<a href=""><button>Add To Cart</button></a>&nbsp;<a href=""><button class="btn">Buy</button></a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+            <div class="footer">
+                <div class="contact">
+                    <ul id="f-1">
+                        <li><a href="">There're Several Ways You Can Get Intouch</a></li>
+                    </ul>
+                    <ul id="f-2">
+                        <li><a href="">Facebook</a></li>
+                        <li><a href="">Instagram</a></li>
+                        <li><a href="">Twitter</a></li>
+                        <li><a href="">YouTube</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                    <ul id="f-3">
+                        <li><a href="">Map</a></li>
+                        <li><a href="">Shops</a></li>
+                        <li><a href=" ">Service</a></li>
+                        <li><a href="">My Country</a></li>
+                        <li><a href="">About Delivery</a></li>
+                    </ul>
+                    <ul id="f-4">
+                        <li><a href="">About</a></li>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Help</a></li>
+                        <li><a href="">Shipping</a></li>
+                        <li><a href="">My Growth</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
